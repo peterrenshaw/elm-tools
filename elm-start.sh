@@ -2,7 +2,8 @@
 
 #
 # name: elm-start.sh
-# date: 2020AUG07
+# date: 2020AUG10
+#       2020AUG07
 #       - create src/Main.elm
 #       - list $1 
 #       - cd $1 (TODO extract filename / directory & cd dir only)

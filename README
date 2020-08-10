@@ -1,6 +1,13 @@
-README
+    ____  _________    ____  __  _________
+   / __ \/ ____/   |  / __ \/  |/  / ____/
+  / /_/ / __/ / /| | / / / / /|_/ / __/   
+ / _, _/ /___/ ___ |/ /_/ / /  / / /___   
+/_/ |_/_____/_/  |_/_____/_/  /_/_____/   
+                                          
 
- Compile: a script to run the Elm compiler
+ Compile: 
+    elm-start.sh : build boilerplate for elm project
+    compile.sh   : a script to run the Elm compiler
 
 2020AUG10
 * rewrote elm-start.sh
