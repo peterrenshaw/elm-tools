@@ -28,6 +28,17 @@
 
 
 2020AUG10
+* new order src/Main.elm
+    -- TYPES
+    -- MODEL
+    -- FUNCS
+    -- INIT
+    -- SUBSCRIPTIONS
+    -- UPDATE
+    -- VIEW
+    -- MAIN
+
+
 * add SUBSCRIPTIONS to src/Main.elm 
 
 * now building as I want
