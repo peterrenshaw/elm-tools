@@ -16,27 +16,38 @@
 
 
 {
-  DOC_FILES="README TODO index.html"
+  ROOT=$HOME/work/code/elm/elm-hacks
+  DOC_TEMPLATE=$ROOT/template
+  DOC_ELM_MAIN="Main.elm"
 
-  echo "0/ create a directory at $1"
-  mkdir $1
-  cd $1
+  clear
+
+  echo "0/ create a directory at <$ROOT/$1>"
+  mkdir $ROOT/$1
 
   echo "1/ build DOC skeleton"
-  touch $DOC_FILES
+  echo "   cp template"
+  cp $DOC_TEMPLATE/* $ROOT/$1
+  
+  echo "   build src/$DOC_ELM_MAIN"
+  mkdir $ROOT/$1/src
+  touch $ROOT/$1/src/$DOC_ELM_MAIN
 
-  echo "2/ setup git"
+
+  echo "2/ move to dir <$ROOT/$1>"
+  cd $ROOT/$1
+
+  echo "3/ setup git"
   git init .
 
-  echo "3/ setup elm"
+  echo "4/ setup elm"
   elm init
 
-  # make default elm file
-  touch $1/src/Main.elm
 
-  echo "4/ add to git... first checkin"
+  echo "5/ add to git... first checkin"
   git add README 
   git add TODO
+  git add BUGS
   git add elm.json
   git add index.html
   git add src/*.elm
@@ -45,8 +56,7 @@
   git status
  
   echo "5/ start coding"
-  #cd $1
-  ls $1 
+  ls -la *
 
 } >&2 
 

@@ -2,6 +2,10 @@ README
 
  Compile: a script to run the Elm compiler
 
+2020AUG10
+* rewrote elm-start.sh
+- includes template dir
+- template dir should be in root
 
-* 2020AUG07
-- initail checkin
+2020AUG07
+* initail checkin
