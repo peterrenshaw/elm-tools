@@ -19,7 +19,6 @@
 {
   ROOT=$HOME/work/code/elm/elm-hacks
   DOC_TEMPLATE=$ROOT/template
-  DOC_ELM_MAIN="Main.elm"
 
   clear
 
@@ -28,12 +27,7 @@
 
   echo "1/ build DOC skeleton"
   echo "   cp template"
-  cp $DOC_TEMPLATE/* $ROOT/$1
-  
-  echo "   build src/$DOC_ELM_MAIN"
-  mkdir $ROOT/$1/src
-  touch $ROOT/$1/src/$DOC_ELM_MAIN
-
+  cp -R $DOC_TEMPLATE/* $ROOT/$1
 
   echo "2/ move to dir <$ROOT/$1>"
   cd $ROOT/$1
@@ -62,4 +56,3 @@
 } >&2 
 
 # eof
-
