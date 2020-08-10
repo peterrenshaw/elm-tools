@@ -28,6 +28,8 @@
 
 
 2020AUG10
+* add SUBSCRIPTIONS to src/Main.elm 
+
 * now building as I want
 * changed template to replicate structure I want in projects
   
