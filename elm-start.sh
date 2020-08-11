@@ -2,7 +2,8 @@
 
 #
 # name: elm-start.sh
-# date: 2020AUG10
+# date: 2020AUG11
+#       2020AUG10
 #       2020AUG07
 #       - create src/Main.elm
 #       - list $1 
@@ -46,6 +47,7 @@
   git add elm.json
   git add index.html
   git add src/*.elm
+  git add favicon.png
   git commit -a -m "Initial Checkin for $1"
   git log
   git status
