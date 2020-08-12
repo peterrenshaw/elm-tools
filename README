@@ -26,7 +26,14 @@
     -rw-r--r--@  1 pr  staff  283 10 Aug 13:21 index.html
     drwxr-xr-x   4 pr  staff  128 10 Aug 13:22 src
 
+
+
 2020AUG12
+* template must be captured
+- there's a duplication of files (compile.sh)
+- needs to be there
+- why template/src/Main.elm not captured?
+
 * order of src/Main.elm 
 - make main first
 
