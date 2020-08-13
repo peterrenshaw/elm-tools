@@ -11,21 +11,62 @@
 
  Usage:
     > ./elm-start.sh elm-foo
+    0/ create a directory at </Users/pr/work/code/elm/elm-hacks/elm-foo>
+    1/ build DOC skeleton
+       cp template
+    2/ move to dir </Users/pr/work/code/elm/elm-hacks/elm-foo>
+    3/ setup git
+    Initialized empty Git repository in /Users/pr/work/code/elm/elm-hacks/elm-foo/.git/
+    4/ setup elm
+    Hello! Elm projects always start with an elm.json file. I can create them!
+
+    Now you may be wondering, what will be in this file? How do I add Elm files to
+    my project? How do I see it in the browser? How will my code grow? Do I need
+    more directories? What about tests? Etc.
+
+    Check out <https://elm-lang.org/0.19.1/init> for all the answers!
+
+    Knowing all that, would you like me to create an elm.json file now? [Y/n]: y
+    Okay, I created it. Now read that link!
+    5/ add to git... first checkin
+    [master (root-commit) 7b5e230] Initial Checkin for elm-foo
+    7 files changed, 79 insertions(+)
+    create mode 100644 BUGS
+    create mode 100644 README
+    create mode 100644 TODO
+    create mode 100644 elm.json
+    create mode 100644 favicon.png
+    create mode 100644 index.html
+    create mode 100644 src/Main.elm
+    commit 7b5e230de592ee94f5661e103fa8f17921a5af94 (HEAD -> master)
+    Author: Peter Renshaw <sldfkjsdf@sdfsdfsvsdq.com>
+    Date:   Thu Aug 13 22:47:19 2020 +1000
+
+    Initial Checkin for elm-foo
+    On branch master
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+
+	compile.sh
+
+    nothing added to commit but untracked files present (use "git add" to track)
+    5/ start coding
+    -rw-r--r--@ 1 pr  staff   162 13 Aug 22:47 BUGS
+    -rw-r--r--@ 1 pr  staff   259 13 Aug 22:47 README
+    -rw-r--r--@ 1 pr  staff   130 13 Aug 22:47 TODO
+    -rwxr--r--  1 pr  staff   528 13 Aug 22:47 compile.sh
+    -rw-r--r--  1 pr  staff   517 13 Aug 22:47 elm.json
+    -rw-r--r--  1 pr  staff  7980 13 Aug 22:47 favicon.png
+    -rw-r--r--  1 pr  staff   345 13 Aug 22:47 index.html
+
+    src:
+    total 8
+    drwxr-xr-x   3 pr  staff   96 13 Aug 22:47 .
+    drwxr-xr-x  11 pr  staff  352 13 Aug 22:47 ..
+    -rw-r--r--@  1 pr  staff  192 13 Aug 22:47 Main.elm
+
     > cd elm-foo
-    > ls -la
-
-    drwxr-xr-x  11 pr  staff  352 10 Aug 13:22 .
-    drwxr-xr-x  11 pr  staff  352 10 Aug 13:21 ..
-    drwxr-xr-x  12 pr  staff  384 10 Aug 13:21 .git
-    -rw-r--r--@  1 pr  staff  162 10 Aug 13:21 BUGS
-    -rw-r--r--@  1 pr  staff  259 10 Aug 13:21 README
-    -rw-r--r--@  1 pr  staff  130 10 Aug 13:21 TODO
-    -rwxr--r--   1 pr  staff  528 10 Aug 13:21 compile.sh
-    drwxr-xr-x   3 pr  staff   96 10 Aug 13:22 elm-stuff
-    -rw-r--r--   1 pr  staff  517 10 Aug 13:21 elm.json
-    -rw-r--r--@  1 pr  staff  283 10 Aug 13:21 index.html
-    drwxr-xr-x   4 pr  staff  128 10 Aug 13:22 src
-
+    $  
 
 
 2020AUG12
