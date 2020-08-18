@@ -68,6 +68,9 @@
     > cd elm-foo
     $  
 
+2020AUG18
+* modified src/Main.elm
+- added CONST
 
 2020AUG12
 * template must be captured
