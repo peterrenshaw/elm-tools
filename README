@@ -8,6 +8,7 @@
  Compile: 
     elm-start.sh : build boilerplate for elm project
     compile.sh   : a script to run the Elm compiler
+    go.sh        : a script to run python3 server
 
  Usage:
     > ./elm-start.sh elm-foo
@@ -67,6 +68,11 @@
 
     > cd elm-foo
     $  
+
+2020AUG21
+* added template/go.sh
+- run a python3 http.server
+- defaults to port 5000
 
 2020AUG18
 * modified src/Main.elm
