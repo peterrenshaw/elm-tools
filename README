@@ -70,6 +70,8 @@
     $  
 
 2020AUG21
+* add template/Main.elm
+
 * added template/go.sh
 - run a python3 http.server
 - defaults to port 5000
