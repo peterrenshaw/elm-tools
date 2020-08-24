@@ -10,8 +10,8 @@ module Main exposing (main)
    #
 -}
 
-import Browser
-import Html
+import Browser exposing (..)
+import Html exposing (..)
 
 
 
@@ -21,7 +21,7 @@ import Html
 
 main : Program Flags Model Msg
 main =
-    Browser.Document
+    Browser.document
         { init = init
         , update = update
         , view = view
@@ -59,10 +59,9 @@ type alias Model =
 -- INIT
 
 
-init : Flags -> ( Model, Cmd Msg )
-init _ =
-    ( { currPage = InputPage
-      }
+init : () -> ( Model, Cmd Msg )
+init flags =
+    ( { currPage = InputPage }
     , Cmd.none
     )
 
@@ -72,7 +71,7 @@ init _ =
 
 
 subscriptions : Model -> Sub Msg
-subscriptions model =
+subscriptions _ =
     Sub.none
 
 
@@ -91,7 +90,7 @@ update msg model =
 -- VIEW
 
 
-view : Model -> Browser.Document Msg
+view : Model -> Document Msg
 view _ =
     { title = "INSERT_TITLE_HERE"
     , body = []
