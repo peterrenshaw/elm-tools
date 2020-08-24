@@ -71,6 +71,7 @@
 
 2020AUG24
 * todo
+- added type declaration to main, src/Main.elm
 - testing
 
 * addressing a big problem of boilerplate code
