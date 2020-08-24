@@ -2,7 +2,8 @@
 
 #
 # name: elm-start.sh
-# date: 2020AUG11
+# date: 2020AUG24
+#       2020AUG11
 #       2020AUG10
 #       2020AUG07
 #       - create src/Main.elm
@@ -18,7 +19,7 @@
 
 
 {
-  ROOT=$HOME/work/code/elm/elm-hacks
+  ROOT=$HOME/work/code/elm/elm-hacks/elm-tools
   DOC_TEMPLATE=$ROOT/template
 
   clear
