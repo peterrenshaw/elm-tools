@@ -71,6 +71,7 @@
 
 2020AUG24
 * todo
+- elm-start.sh paths
 - testing
 - added type declaration to main, src/Main.elm
 - testing

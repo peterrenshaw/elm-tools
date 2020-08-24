@@ -19,8 +19,8 @@
 
 
 {
-  ROOT=$HOME/work/code/elm/elm-hacks/elm-tools
-  DOC_TEMPLATE=$ROOT/template
+  ROOT=$HOME/work/code/elm/elm-hacks
+  DOC_TEMPLATE=$ROOT/elm-tools/template
 
   clear
 
