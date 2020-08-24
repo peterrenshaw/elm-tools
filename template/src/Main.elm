@@ -19,6 +19,7 @@ import Html
 -- MAIN
 
 
+main : Program Flags Model Msg
 main =
     Browser.Document
         { init = init
