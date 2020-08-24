@@ -69,6 +69,18 @@
     > cd elm-foo
     $  
 
+2020AUG24
+* todo
+- testing
+
+* addressing a big problem of boilerplate code
+- every reference you look at is a simplified version
+  of the changes I've made to /template/Main.elm
+- A bias here is I'll be using elm-ui so things are
+  being set up so code for apps compile quicker
+- source: Practical Elm, P92-95
+
+
 2020AUG21
 * add template/Main.elm
 
