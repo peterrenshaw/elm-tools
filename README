@@ -70,6 +70,12 @@
     $  
 
 2020AUG27
+* added src/Blank.elm
+- there is a case where I want a blank template to use
+- modify elm-start.sh to allow for this
++ capture command argument name
++ rename file
+
 * re-order of src/Main.elm
 - this is after experience with latest hack
 - readability
