@@ -69,6 +69,11 @@
     > cd elm-foo
     $  
 
+2020AUG27
+* re-order of src/Main.elm
+- this is after experiece with latest hack
+- readability
+
 2020AUG24
 * compiles
 - after much wombling, the error was 'Document' instead of 'document'.

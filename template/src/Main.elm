@@ -55,27 +55,6 @@ type alias Model =
 
 
 
--- FUNCS
--- INIT
-
-
-init : () -> ( Model, Cmd Msg )
-init flags =
-    ( { currPage = InputPage }
-    , Cmd.none
-    )
-
-
-
--- SUBSCRIPTIONS
-
-
-subscriptions : Model -> Sub Msg
-subscriptions _ =
-    Sub.none
-
-
-
 -- UPDATE
 
 
@@ -95,6 +74,27 @@ view _ =
     { title = "INSERT_TITLE_HERE"
     , body = []
     }
+
+
+
+-- FUNCS
+-- INIT
+
+
+init : () -> ( Model, Cmd Msg )
+init flags =
+    ( { currPage = InputPage }
+    , Cmd.none
+    )
+
+
+
+-- SUBSCRIPTIONS
+
+
+subscriptions : Model -> Sub Msg
+subscriptions _ =
+    Sub.none
 
 
 
