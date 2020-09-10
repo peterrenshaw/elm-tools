@@ -69,6 +69,11 @@
     > cd elm-foo
     $  
 
+2020SEP10
+* added src/Emoji.elm and src/Colour.elm
+- my own colour & emoji tools
+- quite handy
+
 2020AUG27
 * added src/Blank.elm
 - there is a case where I want a blank template to use
