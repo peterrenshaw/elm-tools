@@ -2,7 +2,8 @@
 
 #
 # name: elm-start.sh
-# date: 2020AUG24
+# date: 2020SEP23
+#       2020AUG24
 #       2020AUG11
 #       2020AUG10
 #       2020AUG07
@@ -53,7 +54,11 @@
   git log
   git status
  
-  echo "5/ start coding"
+
+  echo "6/ compile your project 🦘"
+  ./compile.sh 
+
+  echo "7/ start coding"
   ls -la *
 
 } >&2 

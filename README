@@ -51,7 +51,15 @@
 	compile.sh
 
     nothing added to commit but untracked files present (use "git add" to track)
-    5/ start coding
+
+    6/ compile your project 🦘
+    compiling... src/Main.elm
+    Dependencies ready!         
+    Success! Compiled 1 module.
+
+        Main ───> main.js
+
+    7/ start coding
     -rw-r--r--@ 1 pr  staff   162 13 Aug 22:47 BUGS
     -rw-r--r--@ 1 pr  staff   259 13 Aug 22:47 README
     -rw-r--r--@ 1 pr  staff   130 13 Aug 22:47 TODO
@@ -68,6 +76,10 @@
 
     > cd elm-foo
     $  
+
+2020SEP23
+* compile step added ... 
+- slight renumbering of steps
 
 2020SEP14
 * addition to go.sh to allow for serving URL
