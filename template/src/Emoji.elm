@@ -3,12 +3,29 @@ module Emoji exposing (..)
 {-
    #
    # name: Emoji.elm
-   # date: 2020SEP10
+   # date: 2020SEP25
+   #       2020SEP10
    #       2020AUG18
    # prog: pr
    # desc: Emoji for use
    #
 -}
+
+
+msgStopWatch =
+    "⏱️"
+
+
+msgClockMantle =
+    "🕰️"
+
+
+msgClockAlarm =
+    "⏰"
+
+
+msgHourGlass =
+    "⌛"
 
 
 msgPaper =
