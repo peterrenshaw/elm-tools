@@ -3,9 +3,11 @@ module Colour exposing (..)
 {-
    #
    # name: Colour.elm
-   # date: 2020AUG13
+   # date: 2020SEP25
+   #       2020AUG13
    # prog: pr
    # desc: Colours used in  "slack ripp-off".
+   #       You need elm-ui to use this (rgb255)
    #
 -}
 
