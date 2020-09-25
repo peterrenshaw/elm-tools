@@ -2,4 +2,10 @@
  /_  __/ __ \/ __ \/ __ \
   / / / / / / / / / / / /
  / / / /_/ / /_/ / /_/ / 
-/_/  \____/_____/\____/  
+/_/  \____/_____/\____/ 
+
+2020SEP25
+* work on src/Tools.elm
+- for some reason having trouble with datetime tools 
+  passing in model for a couple of functions. 
+- see if u can find the correct types to pass in instead of Model 

@@ -77,6 +77,12 @@
     > cd elm-foo
     $  
 
+2020SEP24
+* added src/Tools.elm
+- contains tools for datetime
+- see SUCCESS/elm-datetime for usage
+- needs work see TODO
+
 2020SEP23
 * compile step added ... 
 - slight renumbering of steps
