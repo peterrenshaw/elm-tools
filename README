@@ -77,6 +77,13 @@
     > cd elm-foo
     $  
 
+2020SEP25
+* added 
+- TEMPLATE/src/Tools.elm
+* updated 
+- TEMPLATE/src/Colour.elm
+- TEMPLATE/src/Emoji.elm
+
 2020SEP24
 * added src/Tools.elm
 - contains tools for datetime
