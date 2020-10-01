@@ -60,7 +60,7 @@
     else 
        # no path, do nothing 
        # ---- EDITABLE VALUE ----
-       PATH=""
+       DIR=""
        # ---- EDITABLE VALUE ----
     fi 
 
