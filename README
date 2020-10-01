@@ -77,6 +77,18 @@
     > cd elm-foo
     $  
 
+2020OCT01
+* added update for template/go.sh
+- allows for directory/path
+
+  ./go.sh 5000 192.168.0.60 www
+  option: port is 5000
+  option: url is <http://192.168.0.12>
+  option: directory is www
+          --directory www
+  starting server 192.168.0.12:5000 --directory www
+  Serving HTTP on 192.168.0.12 port 5000 (http://192.168.0.12:5000/) ...
+
 2020SEP25
 * added 
 - TEMPLATE/src/Tools.elm

@@ -1,6 +1,7 @@
 module Tools exposing
     ( getTimeHere
     , getTimePosix
+    , getTimePosixActual
     , getTimeUtc
     , getTimeZoneAusMelbourne
     , getZoneName
@@ -69,9 +70,20 @@ getZoneName maybeZoneName =
             "No timezone found"
 
 
+getTimePosixActual : Model -> Float
+getTimePosixActual model =
+    case model.posix of
+        Just p ->
+            Time.posixToMillis p
+
+        Nothing ->
+            0.0
+
+
 getTimePosix : Model -> String
 getTimePosix model =
     -- TODO fix so we don't need the model defn
+    -- TODO Change name, this is a display
     case model.posix of
         Just p ->
             String.fromInt <| Time.posixToMillis p
