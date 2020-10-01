@@ -78,6 +78,7 @@
     $  
 
 2020OCT01
+* :63 but, changed $PATH for $DIR
 * added update for template/go.sh
 - allows for directory/path
 
